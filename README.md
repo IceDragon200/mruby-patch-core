@@ -74,3 +74,8 @@ MyAwesomeClass.name #=> "MyAwesomeClass"
 0.0.nonzero? #=> false
 2.7.nonzero? #=> true
 ```
+
+### String
+```ruby
+"aabbcc".tr("aab", "d") #=> "dbcc"
+```
