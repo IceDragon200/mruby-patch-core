@@ -5,4 +5,5 @@ MRuby::Gem::Specification.new('mruby-patch-core') do |spec|
   spec.summary = 'Monkey patching for some missing mruby features.'
   spec.description = 'Monkey patching for some missing mruby features.'
   spec.homepage = 'https://github.com/IceDragon200/mruby-patch-core'
+  spec.add_dependency 'mruby-string-ext'
 end
