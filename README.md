@@ -79,3 +79,11 @@ MyAwesomeClass.name #=> "MyAwesomeClass"
 ```ruby
 "aabbcc".tr("aab", "d") #=> "dbcc"
 ```
+
+### Time
+
+```ruby
+# strftime
+now = Time.now
+now.strftime('%x') #=> "07/14/2016"
+```
